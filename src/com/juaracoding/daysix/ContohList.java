@@ -8,14 +8,14 @@ public class ContohList {
         cars.add("Toyota");
         cars.add("Suzuki");
         System.out.println(cars);
-        System.out.println(cars.get(3));
+        System.out.println("Get: "+cars.get(3));
         cars.set(1,"Mazda");
         System.out.println(cars);
-        System.out.println(cars.size());
+        System.out.println("Size: "+cars.size());
         cars.remove(3);
-        System.out.println(cars);
-        System.out.println(cars.size());
+        System.out.println("Remove: "+cars);
+        System.out.println("Size: "+cars.size());
         cars.clear();
-        System.out.println(cars);
+        System.out.println("Clear: "+cars);
     }
 }
