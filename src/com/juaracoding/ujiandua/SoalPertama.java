@@ -5,17 +5,18 @@ public class SoalPertama {
     loop();
     }
     static void loop(){
-    int i, j,k = 1;
-        for (i = 10;i>=1;i--){
-            for(j=k;j<i;j++) {
+    int i, j,k = 1,l=10;
+        for (i = 1;i<=5;i++){
+            for(j=k;j<l;j++) {
                     if (j % 2 == 1) {
                         System.out.print(j);
                     } else {
                         System.out.print("_");
                 }
             }
-            k++;
             System.out.println();
+            k++;
+            l--;
         }
 
     }
